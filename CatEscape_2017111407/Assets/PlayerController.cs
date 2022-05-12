@@ -11,12 +11,12 @@ public class PlayerController : MonoBehaviour
     }
     public void LButtonDown()
     {
-        transform.Translate(-3, 0, 0); //move left to 3
+        transform.Translate(-2, 0, 0); //move left to 2
     }
 
     public void RButtonDown()
     {
-        transform.Translate(3, 0, 0); //move right to 3
+        transform.Translate(2, 0, 0); //move right to 2
     }
     // Update is called once per frame
     void Update()
@@ -24,13 +24,13 @@ public class PlayerController : MonoBehaviour
         //left
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.Translate(-3, 0, 0); //move left to 3
+            transform.Translate(-2, 0, 0); //move left to 2
         }
 
         //right
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.Translate(3, 0, 0); //move right to 3
+            transform.Translate(2, 0, 0); //move right to 2
         }
     }
 }
